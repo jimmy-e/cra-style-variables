@@ -142,9 +142,7 @@ module.exports = function (webpackEnv) {
       {
         loader: 'sass-resources-loader',
         options: {
-          resources: [
-            './src/styles/sizes.scss',
-          ]
+          resources: './src/styles/sizes.scss',
         },
       },
     ].filter(Boolean);
