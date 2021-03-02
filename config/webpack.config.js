@@ -139,6 +139,14 @@ module.exports = function (webpackEnv) {
           sourceMap: isEnvProduction ? shouldUseSourceMap : isEnvDevelopment,
         },
       },
+      {
+        loader: 'sass-resources-loader',
+        options: {
+          resources: [
+            './src/styles/sizes.scss',
+          ]
+        },
+      },
     ].filter(Boolean);
     if (preProcessor) {
       loaders.push(
