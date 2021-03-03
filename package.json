@@ -92,8 +92,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^5.0.0",
-    "sass-resources-loader": "^2.1.1"
+    "node-sass": "^5.0.0"
   },
   "jest": {
     "roots": [
