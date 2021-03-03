@@ -177,7 +177,7 @@ module.exports = function (webpackEnv) {
           }
         );
       }
-      }
+    }
     return loaders;
   };
 
