@@ -1,10 +1,10 @@
 import * as React from 'react';
 // @ts-ignore
-import * as styles from './app.scss';
+import './app.scss';
 
 const App: React.FC = () => (
   <div
-    className={styles.box}
+    className="box"
     style={{
       alignItems: 'center',
       background: 'orange',
