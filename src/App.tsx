@@ -4,7 +4,7 @@ import * as styles from './app.scss';
 
 const App: React.FC = () => (
   <div className={styles.box}>
-    <h1>hello world</h1>
+    <h1>This is the CRA Code</h1>
   </div>
 );
 
